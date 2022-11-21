@@ -1,0 +1,7 @@
+a=int(input())
+b=int(input())
+c=a/b
+print(c)
+40
+20
+2.0
