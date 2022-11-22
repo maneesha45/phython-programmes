@@ -1,0 +1,9 @@
+si=float(input('simple interest:'))
+p=int(input('principal:'))
+t=int(input('time:'))
+EMI=(si+p)/t*12
+print('EMI:',EMI)
+simple interest:5000
+principal:100000
+time:2
+EMI: 630000.0
