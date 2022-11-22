@@ -12,3 +12,18 @@ print('Grnder',Gender)
 print('Phno',Phno)
 print('Address',Address)
 print('degree_percentage',degree_percentage)
+output:
+enter sno:33
+enter sname:Maneesha
+enter group:MPCS
+enter gender:Female
+enter Phno:1234567890
+enter Address:ABCDE/23
+enter degree_percentage:8.92
+sno 33
+sname Maneesha
+Group MPCS
+Grnder Female
+Phno 1234567890
+Address ABCDE/23
+degree_percentage 8.92
