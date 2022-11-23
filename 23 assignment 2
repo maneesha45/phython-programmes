@@ -1,0 +1,10 @@
+a=int(input('enter a value'))
+b=int(input('enter b value'))
+if a==b:
+    print('a,b are equal')
+else:
+     print('a,b are equal')
+ output:    
+enter a value10
+enter b value10
+a,b are equal
