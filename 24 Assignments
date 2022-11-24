@@ -1,0 +1,75 @@
+*Assignment:1
+a=int(input ('enter the a value'))
+b=int(input('enter the b value'))
+a+b
+a-b
+a*b
+a%b
+a/b
+a//b
+a**b
+print(a+b)
+print(a-b)
+print(a*b)
+print(a%b)
+print(a/b)
+print(a//b)
+print(a**b)
+
+output:
+enter the a value2
+enter the b value4
+6
+-2
+8
+2
+0.5
+0
+16
+
+*Assignment:2
+a=int(input ('enter the a value'))
+b=int(input('enter the b value'))
+print (a>b)
+print (a<b)
+print (a<=b)
+print (a>=b)
+print(a==b)
+print (a!=b)
+
+output:
+enter the a value4
+enter the b value7
+False
+True
+True
+False
+False
+True
+
+*Assignment:3
+sno=int(input('enter sno:'))
+name=input('enter name:')
+group=input('enter group')
+s1=int(input('s1:'))
+s2=int(input('s2:'))
+s3=int(input('s3:'))
+print(sno)
+print(name)
+print(group)
+if s1>=35 and s2>=35 and s3>=35:
+    print('pass')
+else:
+    print('fail')
+
+output:
+enter sno:33
+enter name:Maneesha
+enter groupMPCS
+s1:75
+s2:80
+s3:95
+33
+Maneesha
+MPCS
+pass
