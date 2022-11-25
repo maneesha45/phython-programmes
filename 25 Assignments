@@ -1,0 +1,35 @@
+**Assignment:1
+list=[4,3,7,10,17,20]
+print('enter the element')
+n=int(input())
+if n in list:
+      print ('yes')
+else:
+      print ('No')
+
+output:
+enter the element
+4
+yes
+
+**Assignment:2
+list1=[4,7,2,8,3,10,]
+min=list1[0]
+for i in list1:
+    if i<min:
+      min=i
+print("Minimum value= ",min)
+
+output:
+Minimum value=  2
+
+**Assignment:3
+list1=[3,0,2,9,4,10]
+sum=0
+for i in list1:
+    if i%2==0:
+        sum=sum+i
+print("sum= ",sum) 
+
+output:
+sum=  16
