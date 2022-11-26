@@ -1,0 +1,70 @@
+**Assignment:1
+a=int(input('enter the value of a:'))
+b=int(input('enter the value of b:'))
+print('The value of a&b= ',a&b)
+print('The value of a|b= ',a|b)
+print('The value of a^b= ',a^b)
+
+output:
+enter the value of a:10
+enter the value of b:12
+The value of a&b=  8
+The value of a|b=  14
+The value of a^b=  6
+
+
+**Assignment:2
+n=int(input('enter the value of n:'))
+print('The value of n<<1= ',n<<1)
+print('The value of n<<2= ',n<<2)
+print('The value of n<<3= ',n<<3)
+print('The value of n<<4= ',n<<4)
+print('The value of n<<5= ',n<<5)
+print('The value of n<<6= ',n<<6)
+print('The value of n<<7= ',n<<7)
+print('The value of n<<8= ',n<<8)
+print('The value of n<<9= ',n<<9)
+print('The value of n<<10= ',n<<10)
+
+
+output:
+
+enter the value of n:20
+The value of n<<1=  40
+The value of n<<2=  80
+The value of n<<3=  160
+The value of n<<4=  320
+The value of n<<5=  640
+The value of n<<6=  1280
+The value of n<<7=  2560
+The value of n<<8=  5120
+The value of n<<9=  10240
+The value of n<<10=  20480
+
+**Assignment:3
+n=int(input('enter the value of n:'))
+print('The value of n>>1= ',n>>1)
+print('The value of n>>2= ',n>>2)
+print('The value of n>>3= ',n>>3)
+print('The value of n>>4= ',n>>4)
+print('The value of n>>5= ',n>>5)
+print('The value of n>>6= ',n>>6)
+print('The value of n>>7= ',n>>7)
+print('The value of n>>8= ',n>>8)
+print('The value of n>>9= ',n>>9)
+print('The value of n>>10= ',n>>10)
+
+output:
+enter the value of n:30
+The value of n>>1=  15
+The value of n>>2=  7
+The value of n>>3=  3
+The value of n>>4=  1
+The value of n>>5=  0
+The value of n>>6=  0
+The value of n>>7=  0
+The value of n>>8=  0
+The value of n>>9=  0
+The value of n>>10=  0
+
+
