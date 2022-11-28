@@ -1,0 +1,45 @@
+***Assignment:1
+pinnumber=336912
+number=int(input ('enter the ATM pin number: '))
+if pinnumber==number:
+    print("continue the transactions")
+else:
+    print("incorrect pin number")
+    print("Please try again")
+    *output:1
+ enter the ATM pin number: 345656
+incorrect pin number
+Please try again
+*output:2
+enter the ATM pin number: 336912
+continue the transactions
+
+
+    
+***Assignment:2
+n=int(input('enter the value of n:'))
+if n<100:
+   print("number is less than 100")
+else:
+    print ("number is greater than 100")
+
+*output:1
+enter the value of n:58
+number is less than 100
+*output:2
+enter the value of n:256
+number is greater than 100
+
+
+
+**Assignment:3
+balance=1000
+amount=int(input('enter amount:'))
+printf("credited amount: ", amount)
+main balance=balance+amount
+print ("main balance: ",main balance)
+
+*output:
+enter amount:4000
+credited amount: 4000
+main balance: 5000
