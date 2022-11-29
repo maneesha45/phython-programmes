@@ -1,0 +1,116 @@
+***Assignment:1
+
+a=int(input('enter the value of a:'))
+b=int(input('enter the value of b:'))
+c=int(input('enter the value of c:'))
+d=int(input('enter the value of d:'))
+if a>b:
+    if a>c:
+        if a>d:
+            print('a is big')
+if b>a:
+    if b>c:
+        if b>d:
+            print('b is big')
+if c>a:
+    if c>b:
+        if c>d:
+            print('c is big')
+if d>a:
+    if d>b:
+        if d>c:
+            print('d is big')
+
+*output:enter the value of a:10
+enter the value of b:20
+enter the value of c:30
+enter the value of d:40
+d is big
+
+
+***Assignment:2
+
+
+empo=int(input('enter the empo:'))
+empname=input('enter the empname:')
+empdesig=input('enter the empdesig:')
+basicsalary=int(input('enter the basicsalary:'))
+da=int(input('enter the da:'))
+ta=int(input('enter the ta:'))
+hra=int(input('enter the hra:'))
+netsalary=basicsalary+da+ta+hra
+if netsalary>100000:
+    tax=netsalary*10/100
+    print('tax: ',tax)
+elif netsalary>50000:
+    tax=netsalary*7/100
+    print('tax: ',tax)
+elif netsalary>40000:
+    tax=netsalary*4/100
+    print('tax: ',tax)
+elif netsalary>20000:
+    tax=netsalary*2/100
+    print('tax: ',tax)
+else:
+    print('tax=0')
+                 
+output:1
+enter the empo:33
+enter the empname:Maneesha
+enter the empdesig:Anmator
+enter the basicsalary:70000
+enter the da:4000
+enter the ta:5000
+enter the hra:15000
+tax:  6580.0
+output:2
+enter the empo:33
+enter the empname:Maneesha
+enter the empdesig:Animator
+enter the basicsalary:10000
+enter the da:400
+enter the ta:200
+enter the hra:3000
+tax=0
+
+
+***Assignment:3
+
+sno=int(input('enter the sno:'))
+sname=input('enter the sname:')
+group=input('enter the group:')
+s1=int(input('enter s1:'))
+s2=int(input('enter the s2:'))
+s3=int(input('enter the s3:'))
+if s1>=35:
+    if s2>=35:
+        if s3>=35:
+            print('Pass')
+else:
+    print('Fail')
+
+
+*output:1
+enter the sno:33
+enter the sname:Maneesha
+enter the group:MPCS
+enter s1:80
+enter the s2:95
+enter the s3:92
+Pass
+
+*output:2
+enter the sno:45
+enter the sname:Nakshatra
+enter the group:MPCS
+enter s1:20
+enter the s2:25
+enter the s3:33
+Fail
+
+
+
+
+
+            
+       
