@@ -1,0 +1,66 @@
+**************************Assignment:1*******************************
+N=int(input())
+i=5
+while(i>=1):
+    print(i)
+    i=i-1
+    
+    
+    ****output:
+    
+
+
+
+**************************Assignment:2***********************************
+n=int(input())
+num=n
+result=0
+while(n!=0):
+    digit=n%10
+    result=result*10+digit
+    n=int(n/10)
+if(result==num):
+    print("Palindrome!")
+else:
+    print("Not Palindrome!")
+12345
+5
+4
+3
+2
+1
+
+****output:1
+
+123
+Not Palindrome!
+***output:2
+121
+Palindrome!
+
+
+
+
+********************************Assignment:3*******************************
+n=int(input())
+s=0
+t=n
+while(n!=0):
+    r=n%10
+    s=s+(r*r*r)
+    n=n//10
+if (s==t):
+
+
+    print('Armstrong')
+else:
+    print('Not a armstrong')
+
+
+***output:
+153
+Armstrong
+
+
+
+    
