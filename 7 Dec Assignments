@@ -1,0 +1,57 @@
+****************************Assignment:1***********************************
+n=int(input())
+a=-1
+b=1
+for i in range(1,n+1):
+    c=a+b
+    print(c)
+    a=b
+    b=c
+
+
+***output:
+10
+0
+1
+1
+2
+3
+5
+8
+13
+21
+34
+
+
+****************************Assignment:2***********************************
+n=int(input())
+f=1
+sum=0
+for i in range(1,n+1,1):
+  f=f*i
+  sum=sum+f
+print(sum)
+
+***output:
+5
+153
+
+
+******************************Assignment:3**********************************
+def sumofnumber(n):
+  s=0
+    while(n!=0):
+        r=n%10
+        s=s+(r*r)
+        n=n//10
+        return s
+n=int(input())
+while(n>9):
+    n=sumofnumber(n)
+if n==1 or n==7:
+    print('happy number')
+else:
+    print('not a happy number')
+
+n=13
+happy number
