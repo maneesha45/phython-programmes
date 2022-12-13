@@ -1,0 +1,37 @@
+******************************************Assignment:1*************************************
+ap=[]
+n=int(input('enter no of districts:'))
+for i in range(n):
+    x=input('enter district:')
+    ap.append(x)
+    ap.sort()
+print(ap)    
+
+***output:
+enter no of districts:4
+enter district:kakinada
+enter district:vspm
+enter district:srikakulam
+enter district:amalapuram
+['amalapuram', 'kakinada', 'srikakulam', 'vspm']
+
+
+
+******************************************Assignment:2****************************************
+n=int(input())
+l=list(map(int,input().split()))
+m=[]
+for i in l:
+    if i not in m:
+        m.append(i)
+print(m)        
+        
+**output:
+
+6
+1 2 3 45 3 4
+[1, 2, 3, 45, 4]
+
+
+
+*****************************************Assignment:3*****************************************
