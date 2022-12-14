@@ -1,0 +1,67 @@
+***********************************************Assignment:1***************************************
+n=int(input())
+a=list(map(int,input().split()))
+for i in range(0,n-1):
+    for j in range(i+1,n):
+        if a[i]>a[j]:
+            t=a[i]
+            a[i]=a[j]
+            a[j]=t
+print(a)
+print(a[0])
+print(a[-1])
+
+***output:
+5
+1 2 3 44 0
+[0, 1, 2, 3, 44]
+0
+44
+
+
+
+**********************************************Assignment:2*****************************************
+n=int(input())
+a=list(map(int,input().split()))
+for i in range(0,n-1):
+    for j in range(i+1,n):
+        if a[i]<a[j]:
+            t=a[i]
+            a[i]=a[j]
+            a[j]=t
+print(a)
+for i in range(n):
+    print(a[i],end=' ')
+
+***output:
+5
+45 78 9 2 1
+[78, 45, 9, 2, 1]
+78 45 9 2 1 
+
+*********************************************Assignment:3********************************************
+n=int(input())
+l=list(map(int,input().split()))
+a=0
+for i in range(n):
+    for j in range(i+1,n):
+        if l[i]==l[j]:
+            a=1
+            break
+if a==1:
+    print('yes')
+else:
+    print('no')
+
+**output:
+4
+1 2 3 4
+no
+**output:
+
+4
+1 2 3 1
+yes
+
+
+
