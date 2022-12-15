@@ -1,0 +1,60 @@
+*********************************************Assignment:1******************************************
+n=int(input())
+tl=list(map(int,input().split()))
+pl=[]
+nl=[]
+for i in range(0,n):
+    if tl[i]>=0:
+        pl.append(tl[i])
+    else:
+        nl.append(tl[i])
+l=pl+nl
+for i in range(n):
+    print(l[i],end=' ')
+
+**output:
+5
+-3 0 5 2 -8
+0 5 2 -3 -8 
+
+
+*********************************************Assignment:2******************************************
+n=int(input())
+tl=list(map(int,input().split()))
+el=[]
+ol=[]
+for i in range(0,n):
+    if tl[i]%2==0:
+        el.append(tl[i])
+    else:
+        ol.append(tl[i])
+l=el+ol
+for i in range(n):
+    print(l[i],end=' ')
+
+**output:
+5
+10 9 4 33 100
+10 4 100 9 33 
+
+**********************************************Assignment:3*****************************************
+n=int(input())
+tl=list(map(int,input().split()))
+k=int(input())
+check=0
+for i in range(0,n):
+    for j in range(i+1,n):
+        if tl[i]-tl[j]==k:
+            check=1
+            break
+if check==1:
+    print('yes')
+else:
+    print('No')
+
+***output:
+5
+2 14 6 8 5
+9
+yes
+
