@@ -1,0 +1,75 @@
+******************************************************Assignment:1*****************************************************
+str=input('enter the string:')
+length=len(str)
+upperstring=(str.upper())
+lowerstring=(str.lower())
+swapstring=(str.swapcase())
+print('length:',length)
+print('upperstring:',upperstring)
+print('lowerstring:',lowerstring)
+print('swapstring:',swapstring)
+
+***output:
+enter the string:Maneesha
+length: 8
+upperstring: MANEESHA
+lowerstring: maneesha
+swapstring: mANEESHA
+
+
+
+******************************************************Assignment:2****************************************************
+str=input('enter the string:')
+count=0
+n=len(str)
+for i in range(0,n):
+    if str[i].isalpha()==1:
+        print(str[i],'is an alphabet')
+        count=count+1
+    else:
+        print(str[i],'is not an alphabet')
+print('The alphabet count is:',count)
+
+
+**output:
+enter the string:Maneesha2004**
+M is an alphabet
+a is an alphabet
+n is an alphabet
+e is an alphabet
+e is an alphabet
+s is an alphabet
+h is an alphabet
+a is an alphabet
+2 is not an alphabet
+0 is not an alphabet
+0 is not an alphabet
+4 is not an alphabet
+* is not an alphabet
+* is not an alphabet
+The alphabet count is: 8
+
+
+
+
+******************************************************Assignment:3****************************************************
+str=input('enter the string:')
+count=0
+n=len(str)
+for i in range(0,n):
+    if str[i].isdigit()==1:
+        print(str[i],'is a digit')
+        count=count+1
+    else:
+        print(str[i],'is not a digit')
+print('The digit count is:',count)
+
+
+
+***output:
+enter the string:SLV3
+S is not a digit
+L is not a digit
+V is not a digit
+3 is a digit
+The digit count is: 1
