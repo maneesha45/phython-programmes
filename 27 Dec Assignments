@@ -1,0 +1,120 @@
+******************************************Assignment:1************************************
+n=int(input())
+l=list(map(int,input().split()))
+ele=int(input())
+check=0
+for i in range(0,n):
+    if l[i]==ele:
+        print('elemant is found at index',i)
+        check=1
+        break
+if check==0:
+    print('element is not found')
+
+***Output:1
+6
+1 2 3 3 5 6
+4
+element is not found
+
+***output:2
+6
+1 2 3 3 5 6
+6
+elemant is found at index 5
+
+******************************************Assignment:2************************************
+n=int(input())
+l=list(map(int,input().split()))
+ele=int(input())
+for i in range(0,n):
+    if l[i]==ele:
+        print(i,end=' ')
+    i=i+1
+else:
+    print('-1')
+
+***Output:1
+9
+1 7 9 4 5 1 7 9 0
+7
+1 6 
+***output:2
+9
+1 7 9 4 5 1 7 9 0
+14
+-1
+
+*****************************************Assignment:3*************************************
+n=int(input())
+l=list(map(int,input().split()))
+x=int(input())
+low=0
+high=n-1
+flag=0
+mid=(low+high)//2
+while high>=low:
+    if x>l[mid]:
+        low=mid+1
+    elif x==l[mid]:
+        flag=1
+        break
+    else:
+        high=mid-1
+    mid=(low+high)//2
+if flag==1:
+    print('element is found at',mid,'index location')
+else:
+    print('element is not found')
+
+***Output:1
+5
+2 6 10 15 25
+25
+element is found at 4 index location
+
+***output:2
+5
+2 6 9 10 15
+1
+element is not found
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
