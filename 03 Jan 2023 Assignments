@@ -1,0 +1,75 @@
+******************************************************Assignment:1*******************************************
+x = int(input())
+y = int(input())
+z = int(input())
+n = int(input())
+l=[[i,j,k] for i in range(0,x+1) for j in range(0,y+1) for k in range(0,z+1) if i+j+k!=n]
+print(l)
+
+***output:
+Input:
+1
+1
+1
+2
+Output:
+[[0, 0, 0], [0, 0, 1], [0, 1, 0], [1, 0, 0], [1, 1, 1]]
+*****************************************************Assignment:2********************************************
+
+n=int(input())
+A=[]
+for i in range(0,n):
+    l=[]
+    for j in range(0,n):
+        x=int(input())
+        l.append(x)
+    A.append(l)
+for i in range(n):
+    for j in range(n):
+        if i==j:
+            print(A[i][j],end=' ')
+
+***output:
+3
+6
+7
+4
+3
+5
+1
+9
+6
+10
+6 5 10 
+
+****************************************************Assignment:3*********************************************
+n=int(input())
+A=[]
+s1=0
+s2=0
+for i in range(0,n):
+    l=[]
+    for j in range(0,n):
+        x=int(input())
+        l.append(x)
+    A.append(l)
+for i in range(n):
+    for i in range(0,n):
+        if i==j:
+            s1=s1+A[i][j]
+            for j in range(n):
+                if i+j==n-1:
+                    s2=s2+A[i][j]
+print(s1-s2)
+***output:
+3
+6
+7
+4
+3
+5
+1
+9
+6
+10
+3
