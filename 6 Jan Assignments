@@ -1,0 +1,60 @@
+**************************************************Assignment:1***********************************
+n=int(input())
+l=list(map(int,input().split()))
+u=[]
+d=[]
+for i in l:
+    if i not in u:
+        u.append(i)
+    else:
+        d.append(i)
+for i in d:
+    print(i,end=' ')
+    
+***output:
+ 8
+1 2 3 4 1 2 5 6
+1 2 
+
+    
+**************************************************Assignment:2************************************
+email=input()
+if email.endswith("@gmail.com"):
+    print('You are using google account')
+if email.endswith("@yahoo.com"):
+    print('You are using yahoo account')
+else:
+    email.endswith("@adc.aditya.ac.in")
+    print('You are using aditya educationl instittute account')
+    
+ ***Output:
+ Maneesha@adc.aditya.ac.in
+You are using yahoo account
+You are using aditya educationl instittute account 
+    
+*************************************************Assignment:3**************************************
+email=input()
+phno=input()
+f=int(phno[0])
+if len(phno)==10 and f>5 and email.endswith("@gmail.com"):
+    print('Regestration successfully')
+else:
+    print('Check youe details')
+
+***Output:1
+Maneesha@gmail.com
+9678543420
+Regestration successfully
+
+***Output:2
+Balu123@gmail
+7465076894
+Check youe details
+
+***Output:3
+kavya45@gmail.com
+8074123470
+Regestration successfully
+
+
+
