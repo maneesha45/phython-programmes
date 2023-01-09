@@ -1,0 +1,16 @@
+*************Assignment:3"*******************
+s=input()
+l=[]
+for i in s:
+    l.append(int(i))
+l.sort()
+l.sort(reverse=True)
+res=''
+for i in l:
+    res=res+str(i)
+print(res)
+
+
+***Output:
+1234567890
+9876543210
