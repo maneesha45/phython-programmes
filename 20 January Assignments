@@ -1,0 +1,56 @@
+*****************Assignments:1***************
+s=input()
+n=len(s)
+c=1
+k=0
+res=''
+for i in range(1,n):
+    if s[i]==s[k]:
+        c=c+1
+    else:
+        res=res+str(c)+s[k]
+        k=i
+        c=1
+    if i==n-1:
+        res=res+str(c)+s[k]
+print(res)
+
+
+***output:
+aaaabbbbbccccccccccccccccde
+4a5b16c1d1e
+
+
+******************Assignment:2**************
+s=input()
+n=len(s)
+s=sorted(s)
+for i in range(1,n):
+    if ord(s[i])-ord(s[i-1])==1:
+        continue
+    else:
+        ch=chr(ord(s[i])-1)
+print(ord(ch),end='')
+
+**output:
+abd
+99
+*******************Assignment:3**************
+'''
+s=input()
+n=len(s)
+res1=''
+res2=''
+for i in range(0,n):
+    if s[i]=='a' or s[i]=='e' or s[i]=='i' or s[i]=='o' or s[i]=='u' or s[i]=='A' or s[i]=='E' or s[i]=='I' or s[i]=='O' or s[i]=='U':
+        res1=res1+s[i]
+    else:
+        res2=res2+s[i]
+print(res2)
+
+
+***output:
+Aditya
+dty
+
+
